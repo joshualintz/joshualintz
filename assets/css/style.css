@@ -1,0 +1,114 @@
+/* Global Styles */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+:root {
+    --primary-color: #fff;
+    --secondary-color: #7A7C80;
+  }
+
+.grid-template {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #285480; /* #101214 */
+    color: var(--secondary-color);
+}
+
+/* Hero/Jumbotron */
+
+.hero {
+    padding-top: 40vh;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: var(--primary-color);
+}
+
+.hero p {
+    font-size: 28px;
+    padding-bottom: 10px;
+    margin:0;
+    color: var(--primary-color);
+}
+
+/* Profile Container */
+
+.profile {
+    padding-top: 10vh;
+    width: 70%;
+}
+
+.profile h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: var(--primary-color);
+}
+
+.profile h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: var(--secondary-color);
+}
+
+.profile p {
+    font-size: 16px;
+    padding-bottom: 10px;
+    margin:0;
+    color: var(--secondary-color);
+}
+
+.profile a {
+    display: block;
+    padding: 5px;
+    font-size: 20px;
+    padding-left: 0;
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.profile a:hover {
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.white:hover {
+    position: relative;
+    padding-left: 10px;
+    color: var(--primary-color);
+}
+
+/* Footer */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: var(--secondary-color);
+}
+
+/* Media queries */
+@media screen and (max-width:780px) {
+    .grid-template {
+        grid-template-columns: 1fr;
+    }
+    .hero {
+        padding:0;
+        padding-top: 5rem;
+    }
+    .profile {
+        padding: 0;
+        padding-left: 1.5rem;
+        padding-top: 2rem;
+    }
+}
