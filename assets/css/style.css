@@ -41,6 +41,16 @@ body {
     color: var(--primary-color);
 }
 
+.hero img {
+    max-height: 200px;
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    opacity: 0.9;
+}
+
 /* Profile Container */
 
 .profile {
