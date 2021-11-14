@@ -2,14 +2,14 @@
 
 ## A minimalist and accessible portfolio
 
-To View the live site click [here &rarr](https://joshualintz.github.io/joshualintz/)
+To View the live site click [here &rarr;](https://joshualintz.github.io/joshualintz/)
 
 ## Features
 
 - Clean, Simple and minimalist one-page UI.
 - Built with only HTML and CSS.
 - Fully Responsive.
-- Well Organized Documentation.git
+- Well Organized Documentation.
 
 ## User Story
 
