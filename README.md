@@ -2,7 +2,11 @@
 
 ## A minimalist and accessible portfolio
 
+<<<<<<< HEAD
 To View the live site click [here &rarr target="_blank"](https://joshualintz.github.io/joshualintz/)
+=======
+To View the live site click [here &rarr](https://joshualintz.github.io/joshualintz/)
+>>>>>>> develop
 
 ## Features
 
